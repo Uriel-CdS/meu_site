@@ -4,6 +4,10 @@ body {
     margin: 30px;
 }
 
+.container {
+    display: flex;
+}
+
 /*header \/\/\/\/\/*/
 
 .navbar {
@@ -58,6 +62,17 @@ body {
 
 img {
     border-radius: 50%;
+}
+
+/*main \/\/\/\/\/*/
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content p {
+    text-align: justify;
 }
 
 /*footer \/\/\/\/*/
