@@ -4,6 +4,10 @@ body {
     margin: 30px;
 }
 
+.container {
+    display: flex;
+}
+
 /*header \/\/\/\/\/*/
 
 .navbar {
@@ -58,6 +62,20 @@ body {
 
 img {
     border-radius: 50%;
+}
+
+
+/*main \/\/\/\/*/
+
+main {
+    text-align: center;
+    margin: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.Qr-img {
+    border-radius: 0%;
 }
 
 /*footer \/\/\/\/*/
