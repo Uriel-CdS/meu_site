@@ -1,7 +1,11 @@
 body {
     height: 100%;
-    background-color: white;
     margin: 30px;
+}
+
+.container{
+    display: flex;
+    min-height: calc(100vh - 60vh);
 }
 
 /*header \/\/\/\/\/*/
@@ -27,7 +31,7 @@ body {
     color: white;
 }
 
-.navlist li a:hover{
+.navlist li a:hover {
     color: #00bfff;
 }
 
@@ -43,6 +47,7 @@ body {
     padding: 10px;
     margin: 10px;
     width: 250px;
+    box-sizing: border-box;
 }
 
 .git-img, .linkedin-img {
@@ -58,6 +63,22 @@ body {
 
 img {
     border-radius: 50%;
+}
+
+/*main \/\/\/\/*/
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #00bfff;
 }
 
 /*footer \/\/\/\/*/

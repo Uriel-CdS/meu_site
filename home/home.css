@@ -51,9 +51,8 @@ body {
     padding: 10px;
     margin: 10px;
     width: 250px;
+    box-sizing: border-box;
 }
-
-
 
 .git-img, .linkedin-img {
     width: 35px;
